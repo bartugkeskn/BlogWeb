@@ -10,7 +10,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Resume - Start Bootstrap Theme</title>
+    <title>Web Blog</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="Dosyalar/img/faviconexm.png">
 
     <!-- Bootstrap core CSS -->
     <link href="Dosyalar/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -170,63 +171,17 @@
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="skills">
             <div class="my-auto">
-                <h2 class="mb-5">Skills</h2>
-
-                <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item">
-                        <i class="fab fa-html5"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-css3-alt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-js-square"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-angular"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-react"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-node-js"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-sass"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-less"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-wordpress"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-gulp"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-grunt"></i>
-                    </li>
-                    <li class="list-inline-item">
-                        <i class="fab fa-npm"></i>
-                    </li>
-                </ul>
-
-                <div class="subheading mb-3">Workflow</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Mobile-First, Responsive Design</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Cross Browser Testing &amp; Debugging</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Cross Functional Teams</li>
-                    <li>
-                        <i class="fa-li fa fa-check"></i>
-                        Agile Development &amp; Scrum</li>
-                </ul>
+                <h2 class="mb-5">Yetenekler</h2>
+                <asp:Repeater ID="Repeater6" runat="server">
+                    <ItemTemplate>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <i class="fa-li fa fa-circle text-info"></i>
+                                <asp:Label ID="Label18" runat="server" Text='<%# Eval("YETENEK") %>'></asp:Label>
+                            </li>
+                        </ul>
+                    </ItemTemplate>
+                </asp:Repeater>
             </div>
         </section>
 
@@ -249,35 +204,18 @@
 
         <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
             <div class="my-auto">
-                <h2 class="mb-5">Awards &amp; Certifications</h2>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        Google Analytics Certified Developer</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        Mobile Web Specialist - Google Certification</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        1<sup>st</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2009</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        1<sup>st</sup>
-                        Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        2<sup>nd</sup>
-                        Place - University of Colorado Boulder - Emerging Tech Competition 2008</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        1<sup>st</sup>
-                        Place - James Buchanan High School - Hackathon 2006</li>
-                    <li>
-                        <i class="fa-li fa fa-trophy text-warning"></i>
-                        3<sup>rd</sup>
-                        Place - James Buchanan High School - Hackathon 2005</li>
-                </ul>
+                <h2 class="mb-5">Sertifikalar</h2>
+                <asp:Repeater ID="Repeater5" runat="server">
+                    <ItemTemplate>
+                        <ul class="fa-ul mb-0">
+                            <li>
+                                <i class="fa-li fa fa-certificate text-info"></i>
+                                <asp:Label ID="Label17" runat="server" Text='<%# Eval("SERTIFIKA") %>'></asp:Label>
+                                <p></p>
+                            </li>
+                        </ul>
+                    </ItemTemplate>
+                </asp:Repeater>
             </div>
         </section>
 

@@ -26,6 +26,14 @@ namespace BlogWeb
             DataSet1TableAdapters.TblHobiTableAdapter dt4 = new DataSet1TableAdapters.TblHobiTableAdapter();
             Repeater4.DataSource = dt4.HobiListele();
             Repeater4.DataBind();
+
+            DataSet1TableAdapters.TblSertifikaTableAdapter dt5 = new DataSet1TableAdapters.TblSertifikaTableAdapter();
+            Repeater5.DataSource = dt5.SertifikaListele();
+            Repeater5.DataBind();
+
+            DataSet1TableAdapters.TblYetenekTableAdapter dt6 = new DataSet1TableAdapters.TblYetenekTableAdapter();
+            Repeater6.DataSource = dt6.YetenekListele();
+            Repeater6.DataBind();
         }
     }
 }
