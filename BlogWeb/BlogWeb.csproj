@@ -443,6 +443,10 @@
     <Content Include="AdminDosyalar\sidebar\style4.css" />
     <Content Include="AdminDosyalar\sidebar\style5.css" />
     <Content Include="AdminDosyalar\StyleSheet2.css" />
+    <Content Include="AdminEgitimEkle.aspx" />
+    <Content Include="AdminEgitimGuncelle.aspx" />
+    <Content Include="AdminEgitimler.aspx" />
+    <Content Include="AdminEgitimSil.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Dosyalar\.gitignore" />
     <Content Include="Dosyalar\css\resume.css" />
@@ -1848,7 +1852,10 @@
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.js" />
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.min.js" />
     <Content Include="Hakkımda.aspx" />
+    <Content Include="Test.css" />
     <Content Include="Web.config" />
+    <Content Include="YetenekEkle.aspx" />
+    <Content Include="YetenekListesi.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.Master.cs">
@@ -1886,6 +1893,37 @@
     <Compile Include="AdminDeneyimSil.aspx.designer.cs">
       <DependentUpon>AdminDeneyimSil.aspx</DependentUpon>
     </Compile>
+    <Compile Include="AdminEgitimEkle.aspx.cs">
+      <DependentUpon>AdminEgitimEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEgitimEkle.aspx.designer.cs">
+      <DependentUpon>AdminEgitimEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEgitimGuncelle.aspx.cs">
+      <DependentUpon>AdminEgitimGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEgitimGuncelle.aspx.designer.cs">
+      <DependentUpon>AdminEgitimGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEgitimler.aspx.cs">
+      <DependentUpon>AdminEgitimler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEgitimler.aspx.designer.cs">
+      <DependentUpon>AdminEgitimler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminEgitimSil.aspx.cs">
+      <DependentUpon>AdminEgitimSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminEgitimSil.aspx.designer.cs">
+      <DependentUpon>AdminEgitimSil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -1906,6 +1944,20 @@
       <DependentUpon>Hakkımda.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="YetenekEkle.aspx.cs">
+      <DependentUpon>YetenekEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekEkle.aspx.designer.cs">
+      <DependentUpon>YetenekEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YetenekListesi.aspx.cs">
+      <DependentUpon>YetenekListesi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekListesi.aspx.designer.cs">
+      <DependentUpon>YetenekListesi.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Dosyalar\.travis.yml" />
