@@ -57,13 +57,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="HobiListesi.aspx">
                         <i class="fas fa-puzzle-piece" style="width:2em"></i>
                         Hobiler
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="SertifikaListesi.aspx">
                         <i class="fas fa-certificate" style="width:2em"></i>
                         Sertifikalar
                     </a>

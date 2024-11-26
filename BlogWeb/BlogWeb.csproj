@@ -1852,10 +1852,18 @@
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.js" />
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.min.js" />
     <Content Include="Hakkımda.aspx" />
+    <Content Include="HobiEkle.aspx" />
+    <Content Include="HobiGuncelle.aspx" />
+    <Content Include="HobiListesi.aspx" />
+    <Content Include="HobiSil.aspx" />
+    <Content Include="SertifikaEkle.aspx" />
+    <Content Include="SertifikaListesi.aspx" />
     <Content Include="Test.css" />
     <Content Include="Web.config" />
     <Content Include="YetenekEkle.aspx" />
+    <Content Include="YetenekGuncelle.aspx" />
     <Content Include="YetenekListesi.aspx" />
+    <Content Include="YetenekSil.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.Master.cs">
@@ -1943,7 +1951,49 @@
     <Compile Include="Hakkımda.aspx.designer.cs">
       <DependentUpon>Hakkımda.aspx</DependentUpon>
     </Compile>
+    <Compile Include="HobiEkle.aspx.cs">
+      <DependentUpon>HobiEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HobiEkle.aspx.designer.cs">
+      <DependentUpon>HobiEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HobiGuncelle.aspx.cs">
+      <DependentUpon>HobiGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HobiGuncelle.aspx.designer.cs">
+      <DependentUpon>HobiGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HobiListesi.aspx.cs">
+      <DependentUpon>HobiListesi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HobiListesi.aspx.designer.cs">
+      <DependentUpon>HobiListesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HobiSil.aspx.cs">
+      <DependentUpon>HobiSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HobiSil.aspx.designer.cs">
+      <DependentUpon>HobiSil.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SertifikaEkle.aspx.cs">
+      <DependentUpon>SertifikaEkle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SertifikaEkle.aspx.designer.cs">
+      <DependentUpon>SertifikaEkle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SertifikaListesi.aspx.cs">
+      <DependentUpon>SertifikaListesi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SertifikaListesi.aspx.designer.cs">
+      <DependentUpon>SertifikaListesi.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YetenekEkle.aspx.cs">
       <DependentUpon>YetenekEkle.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1951,12 +2001,26 @@
     <Compile Include="YetenekEkle.aspx.designer.cs">
       <DependentUpon>YetenekEkle.aspx</DependentUpon>
     </Compile>
+    <Compile Include="YetenekGuncelle.aspx.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.designer.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="YetenekListesi.aspx.cs">
       <DependentUpon>YetenekListesi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="YetenekListesi.aspx.designer.cs">
       <DependentUpon>YetenekListesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YetenekSil.aspx.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekSil.aspx.designer.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

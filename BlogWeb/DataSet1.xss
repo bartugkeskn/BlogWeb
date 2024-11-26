@@ -7,11 +7,11 @@
 <DiagramLayout xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ex:showrelationlabel="False" ViewPortX="94" ViewPortY="0" xmlns:ex="urn:schemas-microsoft-com:xml-msdatasource-layout-extended" xmlns="urn:schemas-microsoft-com:xml-msdatasource-layout">
   <Shapes>
     <Shape ID="DesignTable:TblHakkımda" ZOrder="6" X="104" Y="92" Height="54" Width="300" AdapterExpanded="false" DataTableExpanded="false" OldAdapterHeight="64" OldDataTableHeight="178" SplitterPosition="24" />
-    <Shape ID="DesignTable:TblDeneyim" ZOrder="1" X="105" Y="173" Height="54" Width="300" AdapterExpanded="false" DataTableExpanded="false" OldAdapterHeight="121" OldDataTableHeight="121" SplitterPosition="24" />
+    <Shape ID="DesignTable:TblDeneyim" ZOrder="2" X="105" Y="173" Height="54" Width="300" AdapterExpanded="false" DataTableExpanded="false" OldAdapterHeight="121" OldDataTableHeight="121" SplitterPosition="24" />
     <Shape ID="DesignTable:TblEgitim" ZOrder="5" X="111" Y="266" Height="54" Width="300" AdapterExpanded="false" DataTableExpanded="false" OldAdapterHeight="121" OldDataTableHeight="140" SplitterPosition="24" />
-    <Shape ID="DesignTable:TblHobi" ZOrder="4" X="833" Y="216" Height="115" Width="191" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="64" />
-    <Shape ID="DesignTable:TblSertifika" ZOrder="3" X="1031" Y="535" Height="115" Width="211" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="0" OldDataTableHeight="0" SplitterPosition="64" />
-    <Shape ID="DesignTable:TblYetenek" ZOrder="2" X="108" Y="344" Height="191" Width="302" AdapterExpanded="true" DataTableExpanded="true" OldAdapterHeight="24" OldDataTableHeight="24" SplitterPosition="64" />
+    <Shape ID="DesignTable:TblHobi" ZOrder="1" X="111" Y="438" Height="54" Width="303" AdapterExpanded="false" DataTableExpanded="false" OldAdapterHeight="121" OldDataTableHeight="64" SplitterPosition="24" />
+    <Shape ID="DesignTable:TblSertifika" ZOrder="4" X="113" Y="563" Height="54" Width="302" AdapterExpanded="false" DataTableExpanded="false" OldAdapterHeight="121" OldDataTableHeight="64" SplitterPosition="24" />
+    <Shape ID="DesignTable:TblYetenek" ZOrder="3" X="108" Y="343" Height="54" Width="302" AdapterExpanded="false" DataTableExpanded="false" OldAdapterHeight="121" OldDataTableHeight="64" SplitterPosition="24" />
   </Shapes>
   <Connectors />
 </DiagramLayout>
