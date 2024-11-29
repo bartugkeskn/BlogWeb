@@ -453,6 +453,7 @@
     <Content Include="Dosyalar\css\resume.min.css" />
     <Content Include="Dosyalar\gulpfile.js" />
     <Content Include="Dosyalar\img\faviconexm.png" />
+    <Content Include="Dosyalar\img\pexels-bruno-henrique-1595599448-29510214.jpg" />
     <Content Include="Dosyalar\img\profile.jpg" />
     <Content Include="Dosyalar\index.html" />
     <Content Include="Dosyalar\js\resume.js" />
@@ -1851,13 +1852,17 @@
     <Content Include="Dosyalar\vendor\jquery\jquery.min.js" />
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.js" />
     <Content Include="Dosyalar\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Giris.css" />
+    <Content Include="GirisYap.aspx" />
     <Content Include="Hakkımda.aspx" />
     <Content Include="HobiEkle.aspx" />
     <Content Include="HobiGuncelle.aspx" />
     <Content Include="HobiListesi.aspx" />
     <Content Include="HobiSil.aspx" />
     <Content Include="SertifikaEkle.aspx" />
+    <Content Include="SertifikaGuncelle.aspx" />
     <Content Include="SertifikaListesi.aspx" />
+    <Content Include="SertifikaSil.aspx" />
     <Content Include="Test.css" />
     <Content Include="Web.config" />
     <Content Include="YetenekEkle.aspx" />
@@ -1944,6 +1949,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="GirisYap.aspx.cs">
+      <DependentUpon>GirisYap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GirisYap.aspx.designer.cs">
+      <DependentUpon>GirisYap.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Hakkımda.aspx.cs">
       <DependentUpon>Hakkımda.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1987,12 +1999,26 @@
     <Compile Include="SertifikaEkle.aspx.designer.cs">
       <DependentUpon>SertifikaEkle.aspx</DependentUpon>
     </Compile>
+    <Compile Include="SertifikaGuncelle.aspx.cs">
+      <DependentUpon>SertifikaGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SertifikaGuncelle.aspx.designer.cs">
+      <DependentUpon>SertifikaGuncelle.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SertifikaListesi.aspx.cs">
       <DependentUpon>SertifikaListesi.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="SertifikaListesi.aspx.designer.cs">
       <DependentUpon>SertifikaListesi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SertifikaSil.aspx.cs">
+      <DependentUpon>SertifikaSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SertifikaSil.aspx.designer.cs">
+      <DependentUpon>SertifikaSil.aspx</DependentUpon>
     </Compile>
     <Compile Include="YetenekEkle.aspx.cs">
       <DependentUpon>YetenekEkle.aspx</DependentUpon>

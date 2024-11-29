@@ -22,7 +22,7 @@
     <link href="Dosyalar/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="Dosyalar/css/resume.min.css" rel="stylesheet">
+    <link href="Dosyalar/css/resume.min.css" rel="stylesheet" />
 </head>
 
 <body id="page-top">
@@ -30,9 +30,12 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="d-block d-lg-none">Clarence Taylor</span>
-            <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="Dosyalar/img/profile.jpg" alt="">
-            </span>
+            <asp:Repeater ID="Repeater7" runat="server">
+                <ItemTemplate>
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="<%# Eval("FOTOGRAF") %>" alt="">
+                </ItemTemplate>
+            </asp:Repeater>
+            <span class="d-none d-lg-block"></span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

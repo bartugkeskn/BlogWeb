@@ -34,6 +34,10 @@ namespace BlogWeb
             DataSet1TableAdapters.TblYetenekTableAdapter dt6 = new DataSet1TableAdapters.TblYetenekTableAdapter();
             Repeater6.DataSource = dt6.YetenekListele();
             Repeater6.DataBind();
+
+            DataSet1TableAdapters.TblHakkımdaTableAdapter dt7 = new DataSet1TableAdapters.TblHakkımdaTableAdapter();
+            Repeater7.DataSource = dt7.HakkımdaListele();
+            Repeater7.DataBind();
         }
     }
 }
